@@ -32,10 +32,6 @@ echo "\033[32;1m========================================================"
 
 sleep 1
 
-echo "\033[35;1m Tools Spaming"
-
-sleep 1
-
 echo "\033[32;1m Author: Mr.BrPinG"
 
 sleep 1
@@ -48,12 +44,34 @@ echo "\033[33;1m AndroSec1337 Cyber Team"
 
 sleep 1
 
-echo "\033[33;1m Theme Yang Tersedia :"
+echo "\033[31;1m Theme Yang Tersedia :"
 $HOME/.termux/colors.sh
 
-echo "\033[33;1m Theme Yang Tersedia :"
+echo "\033[33;1m color Yang Tersedia :"
 $HOME/.termux/fonts.sh
 
+sleep 2
+
+clear
+
+toilet -f standard --gay "Mr.BrPinG"
+
+sleep 1
+
+echo "\033[32;1m Recode: Mr.BrPinG"
+
+sleep 1
+
+echo "\033[36;1m Kontak : barping789@gmail.com"
+
+sleep 1
+
+echo "\033[33;1m AndroSec1337 Cyber Team"
+
 echo "Please restart Termux app..."
+
+echo "\033[31:1m wait 5 seconds to exit"
+
+sleep 5
 
 exit
