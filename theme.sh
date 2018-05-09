@@ -1,6 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 termux-setup-storage
 
+lolcat -f standard "Theme-Mux"
+
 apt update
 apt install -y git zsh
 git clone https://github.com/RizkiSaputra693/Theme-Mux.git $HOME/Theme-Mux --depth 1
