@@ -1,8 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 termux-setup-storage
 
-lolcat -f standard "Theme-Mux"
-
 apt update
 apt install -y git zsh
 git clone https://github.com/RizkiSaputra693/Theme-Mux.git $HOME/Theme-Mux --depth 1
@@ -16,10 +14,44 @@ sed -i '/^ZSH_THEME/d' $HOME/.zshrc
 sed -i '1iZSH_THEME="agnoster"' $HOME/.zshrc
 chsh -s zsh
 
-echo "oh-my-zsh install complete!\nChoose your color scheme now~"
+#!/system/xbin/bash
+clear
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+
+sleep 1
+
+echo "\033[32;1m========================================================"
+toilet -f standard -F gay "Theme-Mux"
+echo "\033[32;1m========================================================"
+
+sleep 1
+
+echo "\033[35;1m Tools Spaming"
+
+sleep 1
+
+echo "\033[32;1m Author: Mr.BrPinG"
+
+sleep 1
+
+echo "\033[36;1m Kontak : barping789@gmail.com"
+
+sleep 1
+
+echo "\033[33;1m AndroSec1337 Cyber Team"
+
+sleep 1
+
+echo "\033[33;1m Theme Yang Tersedia :"
 $HOME/.termux/colors.sh
 
-echo "Choose your font now~"
+echo "\033[33;1m Theme Yang Tersedia :"
 $HOME/.termux/fonts.sh
 
 echo "Please restart Termux app..."
